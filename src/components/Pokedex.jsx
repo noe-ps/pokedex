@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Pokedex = () => {
+const Pokedex = ({pokemons}) => {
+    console.log(pokemons)
     return (
         <>
-            <h1>In Code We Trust</h1>   
+            <p>Holi</p>
         </>
     )
 }
